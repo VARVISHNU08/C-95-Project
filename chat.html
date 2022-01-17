@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>St. Fairy Chat</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="game.css">
+<script src="main2.js"></script>
+    </head>
+<body>
+    <center>
+        <h1 id="mnHd">St. Fairy School</h1>
+    </center>
+    <img id="msVr" onmouseenter="show();" onmouseleave="hide();" src="user-login-icon-vector-21078997.png">
+    <div id="msVrTpt">
+        <label id="srNm"></label>
+        <br>
+        <button id="lgtBtn" class="btn btn-warning glyphicon-glyphicon-logout" onclick="logOut()">Logout</button>
+        <br>
+        <button id="sgnTBtn" class="btn btn-danger" onclick="signOut()">Delete Account</button>
+    </div>
+    <br>
+    <br>
+
+    <center>
+        <input id="rmNmNpt" placeholder="Enter Room Name">
+        <br>
+        <button id="btnDDRm" class="btn btn-success" onclick="addRoom()">Add Room</button>
+        <div id="rmNms"></div>
+    </center>
+</body>
+   
+</html>
